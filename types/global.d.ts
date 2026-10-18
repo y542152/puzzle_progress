@@ -70,6 +70,10 @@ declare global {
     VITE_CDN: boolean;
     VITE_HIDE_HOME: string;
     VITE_COMPRESSION: ViteCompression;
+    /** thaipal_go 地址，仅开发环境代理使用 */
+    VITE_CROSSWORD_PROXY: string;
+    /** 管理端令牌，对应服务端 CROSSWORD_CONSOLE_TOKEN */
+    VITE_CROSSWORD_CONSOLE_TOKEN: string;
   }
 
   /**

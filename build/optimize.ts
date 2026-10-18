@@ -17,7 +17,8 @@ const include = [
   "sortablejs",
   "@vueuse/core",
   "@pureadmin/utils",
-  "responsive-storage"
+  "responsive-storage",
+  "crossword-layout-generator"
 ];
 
 /**

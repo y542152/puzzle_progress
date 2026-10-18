@@ -4,6 +4,10 @@ import { addIcon } from "@iconify/vue/dist/offline";
 
 // https://icon-sets.iconify.design/ep/?keyword=ep
 import EpHomeFilled from "~icons/ep/home-filled?raw";
+import EpGrid from "~icons/ep/grid?raw";
+import EpDocument from "~icons/ep/document?raw";
+import EpCalendar from "~icons/ep/calendar?raw";
+import EpTrophy from "~icons/ep/trophy?raw";
 
 // https://icon-sets.iconify.design/ri/?keyword=ri
 import RiSearchLine from "~icons/ri/search-line?raw";
@@ -12,6 +16,10 @@ import RiInformationLine from "~icons/ri/information-line?raw";
 const icons = [
   // Element Plus Icon: https://github.com/element-plus/element-plus-icons
   ["ep/home-filled", EpHomeFilled],
+  ["ep/grid", EpGrid],
+  ["ep/document", EpDocument],
+  ["ep/calendar", EpCalendar],
+  ["ep/trophy", EpTrophy],
   // Remix Icon: https://github.com/Remix-Design/RemixIcon
   ["ri/search-line", RiSearchLine],
   ["ri/information-line", RiInformationLine]
